@@ -23,6 +23,7 @@ body {
     padding: 10px 10px 5px 10px;
 }
 
+
 /* Header */
 .header {
     
@@ -32,6 +33,7 @@ body {
 .nav {
     background-color: #226BE0;
     display: flex;
+    /* Need to create media query to change styling as screen gets smaller */
 }
 
 .nav a {
@@ -47,4 +49,24 @@ body {
 
 .nav a:active {
     box-shadow: inset 0px 0px 15px #c1c1c1
+}
+
+/* Hero */
+
+.picOfMe {
+    border-radius: 50%;
+    margin: 1rem 0 0 0;
+    height: 12rem;
+}
+
+.welcome {
+    margin: 2rem 0 2rem 0;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    font-size: large;
+    color: black;
 }
