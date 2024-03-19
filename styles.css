@@ -23,7 +23,33 @@ body {
     padding: 10px 10px 5px 10px;
 }
 
-
+/* Divider */
+.divider {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.smallCircleLight {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    height: .25rem;
+    width: .25rem;
+    border-radius: 50%;
+    border: 5px #22A7E0 solid;
+    opacity: 0.5;
+}
+.smallCircleDark {
+    display: inline-block;
+    height: .5rem;
+    width: .5rem;
+    border-radius: 50%;
+    border: 5px #226BE0 solid;
+    opacity: 0.5;
+}
 /* Header */
 .header {
     
