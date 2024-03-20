@@ -147,7 +147,7 @@ body {
 
 .workExperience {
     text-align: left;
-    line-height: 0%;
+    line-height: 100%;
 }
 
 .skillsResume {
@@ -192,5 +192,13 @@ ul li {
 
 .educationalFeats {
     text-align: left;
-    line-height: 0%;
+}
+
+.workplace, .school {
+    margin-bottom: 0;
+}
+
+.position, .achievement {
+    margin-top: 0;
+    margin-bottom: 0;
 }
