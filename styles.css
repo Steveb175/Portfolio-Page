@@ -142,7 +142,7 @@ body {
 }
 
 /* Resume */
-.resume {
+#resume {
     display: grid;
     grid-template-columns: 1fr .25fr;
     grid-template-rows: auto;
@@ -248,9 +248,8 @@ ul li {
 }
 
 .projectsImg {
-    width: 332px;
+    max-width: 332px;
     height: 300px;
-    object-fit: fit;
 }
 
 .projectsImg:hover {
@@ -304,7 +303,7 @@ ul li {
 }
 /* Media Queries */
 @media screen and (max-width: 815px) {
-    .resume {
+    #resume {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -355,9 +354,5 @@ ul li {
         max-width: 700px;
         text-align: center;
         margin: 100px auto 0 auto;
-    }
-    .projectsImg {
-        border-radius: 5%;
-        margin-top: 1rem;
     }
 }
