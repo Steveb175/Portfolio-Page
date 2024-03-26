@@ -146,7 +146,7 @@ body {
     grid-template-columns: 1fr .25fr;
     grid-template-rows: auto;
     max-width: 1000px;
-    margin: 0 20%;
+    margin: 0 auto;
 }
 
 .resumeTitle {
@@ -182,7 +182,7 @@ body {
 
 .skills {
     margin-bottom: 0 !important;
-    text-align: center;
+    text-align: left;
 }
 
 .skillsContainer {
@@ -198,7 +198,7 @@ ul {
 .skillsResume ul {
     text-align: left;
     position: relative;
-    padding-left: 10rem;
+    padding-left: 3rem;
 }
 
 ul li {
