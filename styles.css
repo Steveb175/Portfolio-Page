@@ -375,6 +375,13 @@ ul li {
 
 @media screen and (max-width: 415px) {
     .nav a{
+        font-size: 15px !important;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+    .nav a{
         font-size: 10px !important;
     }
 }
