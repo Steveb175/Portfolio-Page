@@ -151,6 +151,7 @@ body {
 
 .resumeTitle {
     grid-column-start: span 2;
+    margin-top: 0;
     text-align: left;
     font-size: 60px;
 }
